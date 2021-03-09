@@ -1,0 +1,367 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.section-top .header {
+	display: flex;
+	flex-direction: column;
+	margin: 2rem 1rem 2rem 1rem;
+	justify-content: space-between;
+}
+
+.section-top .header h1 {
+	font-family: 'Playfair Display';
+	font-size: 1.7rem;
+	font-weight: 700;
+	line-height: 32px;
+	margin-bottom: 1rem;
+}
+
+.section-top .header-below {
+	display: flex;
+	align-items: flex-start;
+}
+
+.section-top .header-below p {
+	font-family: Montserrat;
+	font-size: 0.75;
+	font-style: italic;
+	font-weight: 500;
+	line-height: 20px;
+	/* width: 25rem; */
+	margin-left: 1rem;
+	color: #4f4f4f;
+}
+
+section.image-section {
+	margin: 0rem 1rem;
+}
+
+section .sect-img {
+	width: 100%;
+	border-radius: 0.75rem;
+}
+
+.icon .circles {
+	display: flex;
+	width: 15px;
+	justify-content: space-between;
+}
+
+.icon .circles > div {
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: #c4c4c4;
+}
+
+section#section-below {
+	margin: 2rem 1rem;
+}
+
+.recipe-info-top {
+	height: 6rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 3rem;
+}
+
+.recipe-info-top .yields,
+.prep-time,
+.cook-time,
+.total-time {
+	display: flex;
+	align-items: center;
+}
+
+.recipe-info-top .yields .yields-icon {
+	width: 25px;
+	height: 25px;
+}
+
+.recipe-info-top .prep-info {
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.recipe-info-top .prep-info .prep-icon {
+	width: 25px;
+	height: 25px;
+}
+
+.yields-content,
+.prep-content,
+.cook-content,
+.total-content {
+	margin-left: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	height: 1.8rem;
+	justify-content: space-between;
+}
+
+.yields-content h3,
+.prep-time h3,
+.cook-time h3,
+.total-time h3 {
+	font-family: Montserrat;
+	font-size: 0.7rem;
+	font-weight: 700;
+	line-height: 10px;
+	color: #bdbdbd;
+}
+
+.yields-content p {
+	font-family: Montserrat;
+	font-size: 0.8rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 12px;
+	color: #f2994a;
+}
+
+.prep-time p,
+.cook-time p,
+.total-time p {
+	font-family: Montserrat;
+	font-size: 0.8rem;
+	font-weight: 500;
+	line-height: 12px;
+	color: #333333;
+}
+
+.fa.fa-clock-o {
+	transform: scale(1.5);
+	color: #4f4f4f;
+}
+
+.yields span {
+	color: #f2994a;
+}
+
+.recipe-info-bottom h1 {
+	font-family: 'Playfair Display';
+	font-size: 1.425rem;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 2rem;
+	color: #333333;
+}
+
+.recipe-info-bottom .ingredients {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+}
+
+.recipe-info-bottom .ingredients h2 {
+	font-family: Playfair Display;
+	font-size: 1.2rem;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 21px;
+	margin-bottom: 1.5rem;
+	color: #333333;
+}
+
+.ingredients .graham-crust {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.ingredients .ingredients-content p {
+	font-family: Montserrat;
+	font-size: 0.975rem;
+	font-weight: 400;
+	line-height: 25px;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	width: 100%;
+	color: #333333;
+}
+
+.content-container {
+	display: flex;
+}
+
+.content-container p span {
+	color: #000;
+	font-weight: 700;
+}
+
+.content-container p span#italic-span {
+	font-weight: 500;
+	font-style: italic;
+}
+
+.ingredients .box {
+	width: 20px;
+	height: 20px;
+	border-radius: 0.3rem;
+	border: 1px solid#000;
+}
+
+.instructions > div {
+	display: flex;
+}
+
+.instructions .box {
+	width: 50px;
+	height: 40px;
+	border-radius: 0.3rem;
+	background-color: #f2994a;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+
+	font-family: 'Playfair Display';
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 32px;
+}
+
+.instructions > div p span {
+	font-weight: 700;
+}
+
+.instructions p {
+	font-family: Montserrat;
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 27px;
+	width: 100%;
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+}
+
+#source {
+	font-family: Montserrat;
+	font-size: 0.9rem;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 18px;
+	color: #bdbdbd;
+	margin: auto;
+	margin-bottom: 10rem;
+	width: 500px;
+}
+
+#source span {
+	display: block;
+}
+
+footer {
+	margin: 1rem;
+	color: #828282;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+}
+
+footer p a {
+	color: #828282;
+	font-weight: 700;
+}
+
+@media (min-width: 1100px) {
+	section {
+		margin-left: 15rem;
+		margin-right: 15rem;
+	}
+	section.image-section {
+		margin: 0rem 15rem;
+	}
+	section#section-below {
+		margin: 2rem 15rem;
+	}
+
+	section#section-below > div {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row-reverse;
+	}
+
+	section#section-below .recipe-info-top {
+		padding: 1.5rem 3rem;
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+		border-radius: 12px;
+		height: 375px;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	section#section-below .recipe-info-bottom {
+		width: 70%;
+	}
+	.prep-info {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 170px;
+	}
+
+	.prep-time,
+	.cook-time,
+	.total-time {
+		display: flex;
+		width: 120px;
+		align-items: center;
+	}
+	.recipe-info-top .yields {
+		/* justify-content: space-between; */
+		align-items: center;
+		width: 100%;
+		/* transform: translateX(-0.5rem); */
+	}
+	.prep-content,
+	.yields-content {
+		margin-left: 1rem;
+	}
+	.section-top .header h1 {
+		font-family: 'Playfair Display';
+		font-size: 3rem;
+		line-height: 64px;
+		margin-bottom: 1rem;
+	}
+	.section-top .header p {
+		font-size: 0.9rem;
+		line-height: 24px;
+	}
+	svg {
+		width: 40px;
+		margin-top: 4px;
+	}
+	.section-top .header {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.recipe-info-bottom h1 {
+		font-family: 'Playfair Display';
+		font-size: 1.5rem;
+	}
+	.material-icons {
+		transform: scale(1.1) translateX(-0.3rem);
+	}
+	.yields-content {
+		transform: translateX(-0.5rem);
+	}
+	#source {
+		font-size: 0.9rem;
+		font-style: italic;
+		color: #bdbdbd;
+		margin-bottom: 10rem;
+		width: 500px;
+		margin-left: 15rem;
+		text-align: left;
+	}
+}
