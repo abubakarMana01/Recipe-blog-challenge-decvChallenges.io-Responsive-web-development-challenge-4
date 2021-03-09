@@ -5,7 +5,7 @@
 }
 
 body {
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 
 .section-top .header {
@@ -30,11 +30,10 @@ body {
 
 .section-top .header-below p {
 	font-family: Montserrat;
-	font-size: 0.75;
+	font-size: 0.75rem;
 	font-style: italic;
 	font-weight: 500;
 	line-height: 20px;
-	/* width: 25rem; */
 	margin-left: 1rem;
 	color: #4f4f4f;
 }
@@ -254,7 +253,8 @@ section#section-below {
 	color: #bdbdbd;
 	margin: auto;
 	margin-bottom: 10rem;
-	width: 500px;
+	max-width: 400px;
+	margin-left: 1rem;
 }
 
 #source span {
